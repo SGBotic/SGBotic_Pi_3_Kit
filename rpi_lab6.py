@@ -1,3 +1,8 @@
+# rpi_lab6.py
+# In this lab, we will learn to interface a MCP3002 ADC chip to Raspberry Pi's SPI bus. 
+# A variable resistor (Potentiometer) is used to provide analog input to ADC chip.
+
+# Import Python Library
 import spidev
 import time
 
