@@ -30,7 +30,7 @@ try:
 	       if dutyCycle > 0:
 	           dutyCycle = dutyCycle - 2 # reduce the value of duty cycle by step of 2
 	       else: 
-		       dutyCycle = 100           # reset the dutyCycle to 100 if it reaches 0
+		   dutyCycle = 100           # reset the dutyCycle to 100 if it reaches 0
 
             pwm.ChangeDutyCycle(dutyCycle)
         time.sleep(0.1)                # delay 0.1 second
